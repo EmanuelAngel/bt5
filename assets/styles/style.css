@@ -1,0 +1,70 @@
+/* General styles */
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+.underlined {
+    text-decoration: underline;
+}
+
+.un-poquito-de-margen-abajo {
+    margin-bottom: 20px;
+}
+
+.un-poquito-de-margen-izquierda {
+    margin-left: 20px;
+}
+
+/* Navegation Bar */
+
+.navbar {
+    padding: 20px;
+    background-color: #f5f6f7;
+}
+
+.navbar-collapse {
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* Hero */
+
+.hero {
+    min-height: 450px;
+    background-image: url('../images/hero.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align:left;
+    padding: 100px 50px;
+    color: red;
+}
+
+/* Responsive*/
+
+@media screen and (max-width: 575px) {
+    .navbar-brand {
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav-item {
+        padding: 10px;
+    }
+
+    .un-poquito-de-margen-izquierda {
+        margin-left: 0;
+    }
+
+    h1 {
+        font-size: 2.75rem;
+    }
+}
