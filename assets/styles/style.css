@@ -65,6 +65,13 @@ h1 {
     background-color: rgb(4, 26, 10);
 }
 
+/* Contact */
+
+.break-word {
+    overflow: hidden;
+    word-wrap: break-word;
+}
+
 /* Responsive*/
 
 @media screen and (max-width: 575px) {
